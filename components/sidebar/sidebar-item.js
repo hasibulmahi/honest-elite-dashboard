@@ -1,34 +1,43 @@
 export const CategoryItem = [
   {
-    name: "Content Type",
+    category: "Content Type",
+    permalink: "content-type",
     icon: "</>",
   },
   {
-    name: "Category List",
+    category: "Category List",
+    permalink: "category-list",
+    subCategory: ["Category list", "Other Module"],
     icon: "</>",
   },
   {
-    name: "SUb Category List",
+    category: "Sub Category List",
+    permalink: "category-list",
     icon: "</>",
   },
   {
-    name: "Menu Category",
+    category: "Menu Category",
+    permalink: "category-list",
     icon: "</>",
   },
   {
-    name: "Model Category",
+    category: "Model Category",
+    permalink: "category-list",
     icon: "</>",
   },
   {
-    name: "Side Bar Item 01",
+    category: "Side Bar Item 01",
+    permalink: "category-list",
     icon: "</>",
   },
   {
-    name: "Side Bar Item 02",
+    category: "Side Bar Item 02",
+    permalink: "category-list",
     icon: "</>",
   },
   {
-    name: "Side Bar Item 03",
+    category: "Side Bar Item 03",
+    permalink: "category-list",
     icon: "</>",
   },
 ];
