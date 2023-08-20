@@ -58,7 +58,7 @@ function Sidebar(props) {
           </Box>
           <Box>
             <Typography variant="h5" fontSize={10}>
-              The Honest Elite
+              The Honest Elite Dashboard
             </Typography>
           </Box>
         </Box>
