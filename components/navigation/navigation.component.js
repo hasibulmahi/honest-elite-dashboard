@@ -57,7 +57,7 @@ function Navigation(props) {
       position="relative"
       sx={{
         width: "100%",
-        backgroundColor: "#FFF"
+        backgroundColor: "#FFF",
       }}
     >
       <Toolbar>
@@ -75,10 +75,11 @@ function Navigation(props) {
               }}
             />
           </SearchIconWrapper>
-          <StyledInputBase sx={{
-            width: "250px",
-            fontSize: "14px"
-          }}
+          <StyledInputBase
+            sx={{
+              width: "250px",
+              fontSize: "14px",
+            }}
             placeholder="Search…"
             inputProps={{ "aria-label": "search" }}
           />
