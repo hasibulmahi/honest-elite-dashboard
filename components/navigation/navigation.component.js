@@ -80,7 +80,7 @@ function Navigation(props) {
               width: "250px",
               fontSize: "14px",
             }}
-            placeholder="Search…"
+            placeholder="Search Data"
             inputProps={{ "aria-label": "search" }}
           />
         </Search>
