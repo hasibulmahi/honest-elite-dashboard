@@ -11,7 +11,7 @@ function DataTables(props) {
         sort: false,
         setCellHeaderProps: (value) => ({
           style: {
-            backgroundColor: "#000",
+            backgroundColor: "#ED028C",
             color: "#fff",
           },
         }),
@@ -25,7 +25,7 @@ function DataTables(props) {
         sort: false,
         setCellHeaderProps: (value) => ({
           style: {
-            backgroundColor: "#000",
+            backgroundColor: "#ED028C",
             color: "#fff",
           },
         }),
@@ -39,7 +39,7 @@ function DataTables(props) {
         sort: false,
         setCellHeaderProps: (value) => ({
           style: {
-            backgroundColor: "#000",
+            backgroundColor: "#ED028C",
             color: "#fff",
           },
         }),
@@ -53,7 +53,7 @@ function DataTables(props) {
         sort: false,
         setCellHeaderProps: (value) => ({
           style: {
-            backgroundColor: "#000",
+            backgroundColor: "#ED028C",
             color: "#fff",
           },
         }),
