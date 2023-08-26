@@ -1,8 +1,12 @@
 import React from "react";
-
 import Toolbar from "@mui/material/Toolbar";
-
-import { AppBar, Button, Collapse } from "@mui/material";
+import {
+  AppBar,
+  Avatar,
+  Box,
+  IconButton,
+  Tooltip,
+} from "@mui/material";
 import { styled, alpha } from "@mui/material/styles";
 import SearchIcon from "@mui/icons-material/Search";
 import InputBase from "@mui/material/InputBase";
@@ -84,6 +88,17 @@ function Navigation(props) {
             inputProps={{ "aria-label": "search" }}
           />
         </Search>
+        <Box
+          sx={{
+            marginLeft: "auto",
+          }}
+        >
+          <Tooltip title="Open settings">
+            <IconButton>
+              <Avatar alt="Remy Sharp" src="/profile.png" />
+            </IconButton>
+          </Tooltip>
+        </Box>
       </Toolbar>
     </AppBar>
   );
