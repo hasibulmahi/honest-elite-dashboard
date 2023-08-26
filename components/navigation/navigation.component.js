@@ -1,15 +1,10 @@
 import React from "react";
 import Toolbar from "@mui/material/Toolbar";
-import {
-  AppBar,
-  Avatar,
-  Box,
-  IconButton,
-  Tooltip,
-} from "@mui/material";
+import { AppBar, Avatar, Box, IconButton, Tooltip } from "@mui/material";
 import { styled, alpha } from "@mui/material/styles";
 import SearchIcon from "@mui/icons-material/Search";
 import InputBase from "@mui/material/InputBase";
+import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 
 const drawerWidth = 220;
 
@@ -93,6 +88,9 @@ function Navigation(props) {
             marginLeft: "auto",
           }}
         >
+          <IconButton>
+            <NotificationsNoneIcon />
+          </IconButton>
           <Tooltip title="Open settings">
             <IconButton>
               <Avatar alt="Remy Sharp" src="/profile.png" />
