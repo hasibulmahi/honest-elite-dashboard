@@ -93,7 +93,7 @@ function Navigation(props) {
           </IconButton>
           <Tooltip title="Open settings">
             <IconButton>
-              <Avatar alt="Hilary Clinton" src="/profile.png" />
+              <Avatar alt="Barack Obama" src="/profile.png" />
             </IconButton>
           </Tooltip>
         </Box>
