@@ -75,7 +75,7 @@ function DataTables(props) {
 
   return (
     <MUIDataTable
-      title={"Employee List"}
+      title={"Category List"}
       data={data}
       columns={columns}
       options={{
