@@ -237,9 +237,10 @@ function DataTables(props) {
           <Button variant="contained" color="primary" onClick={handleEditSave}>
             Save
           </Button>
-          <Button sx={{
-            ml: 2
-          }}
+          <Button
+            sx={{
+              ml: 2,
+            }}
             variant="contained"
             color="secondary"
             onClick={handleEditCancel}
