@@ -57,9 +57,13 @@ function Sidebar(props) {
             />
           </Box>
           <Box>
-            <Typography sx={{
-              color: "#ED028C"
-            }} variant="h5" fontSize={10}>
+            <Typography
+              sx={{
+                color: "#ED028C",
+              }}
+              variant="h5"
+              fontSize={10}
+            >
               The Honest Elite
             </Typography>
           </Box>
