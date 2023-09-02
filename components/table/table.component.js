@@ -41,6 +41,22 @@ function DataTables(props) {
       city: "Dallas",
       state: false,
     },
+
+    {
+      id: 5,
+      name: "James Houston",
+      company: "Test Corp",
+      city: "Dallas",
+      state: false,
+    },
+    {
+      id: 6,
+      name: "James Houston",
+      company: "Test Corp",
+      city: "Dallas",
+      state: false,
+    },
+    
   ]);
 
   const [editIndex, setEditIndex] = useState(null);
