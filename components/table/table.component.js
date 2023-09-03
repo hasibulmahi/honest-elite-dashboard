@@ -44,7 +44,7 @@ function DataTables(props) {
 
     {
       id: 5,
-      name: "James Houston",
+      name: "Hasibul Mahi",
       company: "Test Corp",
       city: "Dallas",
       state: false,
