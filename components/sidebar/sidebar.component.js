@@ -17,6 +17,8 @@ import { AppBar, Button, Collapse } from "@mui/material";
 import ListSubheader from "@mui/material/ListSubheader";
 import { CategoryItem } from "./sidebar-item";
 import { ExpandLess, ExpandMore } from "@mui/icons-material";
+import SettingsIcon from '@mui/icons-material/Settings';
+import LockIcon from '@mui/icons-material/Lock';
 
 const drawerWidth = 240;
 
@@ -136,7 +138,7 @@ function Sidebar(props) {
           <ListItem key={text} disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+                {index % 2 === 0 ? <SettingsIcon /> : <LockIcon />}
               </ListItemIcon>
               <ListItemText>
                 <Typography variant="h5" fontSize={13} fontWeight={600}>
