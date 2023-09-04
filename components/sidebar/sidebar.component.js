@@ -11,14 +11,14 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
 import Image from "next/image";
-import { AppBar, Button, Collapse } from "@mui/material";
+import { AppBar, Button, Collapse, IconButton } from "@mui/material";
 import ListSubheader from "@mui/material/ListSubheader";
 import { CategoryItem } from "./sidebar-item";
 import { ExpandLess, ExpandMore } from "@mui/icons-material";
-import SettingsIcon from '@mui/icons-material/Settings';
-import LockIcon from '@mui/icons-material/Lock';
+import SettingsIcon from "@mui/icons-material/Settings";
+import LockIcon from "@mui/icons-material/Lock";
+import LogoutIcon from "@mui/icons-material/Logout";
 
 const drawerWidth = 240;
 
@@ -165,6 +165,7 @@ function Sidebar(props) {
             width: "180px",
           }}
         >
+          <LogoutIcon />
           Log out
         </Button>
       </Box>
