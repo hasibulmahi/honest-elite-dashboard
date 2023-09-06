@@ -19,7 +19,7 @@ import { ExpandLess, ExpandMore } from "@mui/icons-material";
 import SettingsIcon from "@mui/icons-material/Settings";
 import LockIcon from "@mui/icons-material/Lock";
 import LogoutIcon from "@mui/icons-material/Logout";
-
+import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 
 const drawerWidth = 240;
 
@@ -92,9 +92,7 @@ function Sidebar(props) {
                     backgroundColor: i === activeItem ? "#ED028C" : "inherit",
                   }}
                 >
-                  <ListItemIcon>
-                    {item.icon}
-                  </ListItemIcon>
+                  <ListItemIcon>{item.icon}</ListItemIcon>
                   <ListItemText>
                     <Typography variant="h5" fontSize={12} fontWeight={500}>
                       {item.category}
@@ -112,7 +110,14 @@ function Sidebar(props) {
                       return (
                         <List component="div" disablePadding key={index}>
                           <ListItemButton sx={{ pl: 4 }}>
-                            <ListItemIcon>{item.icon}</ListItemIcon>
+                            <ListItemIcon>
+                              <FiberManualRecordIcon
+                                fontSize="5"
+                                sx={{
+                                  color: "#ED028C",
+                                }}
+                              />
+                            </ListItemIcon>
                             <ListItemText>
                               <Typography
                                 variant="h5"
@@ -134,12 +139,16 @@ function Sidebar(props) {
       </List>
       <Divider />
       <List>
-        <ListSubheader sx={{
-          marginLeft: 1,
-          color: "#ED028C",
-          fontSize: "13px",
-          fontWeight: "bold"
-        }}>Account</ListSubheader>
+        <ListSubheader
+          sx={{
+            marginLeft: 1,
+            color: "#ED028C",
+            fontSize: "13px",
+            fontWeight: "bold",
+          }}
+        >
+          Account
+        </ListSubheader>
         {["Settings", "Change Password"].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton>
@@ -171,7 +180,12 @@ function Sidebar(props) {
             width: "180px",
           }}
         >
-          <LogoutIcon />
+          <LogoutIcon
+            sx={{
+              mr: 1,
+            }}
+            fontSize="small"
+          />
           Log out
         </Button>
       </Box>
