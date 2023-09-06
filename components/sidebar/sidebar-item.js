@@ -2,6 +2,8 @@ import GridViewIcon from '@mui/icons-material/GridView';
 import ArticleOutlinedIcon from '@mui/icons-material/ArticleOutlined';
 import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
 import ViewListOutlinedIcon from '@mui/icons-material/ViewListOutlined';
+import BallotOutlinedIcon from '@mui/icons-material/BallotOutlined';
+import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 
 export const CategoryItem = [
   {
@@ -23,17 +25,17 @@ export const CategoryItem = [
   {
     category: "Menu Category",
     permalink: "category-list",
-    icon: "</>",
+    icon: <ViewListOutlinedIcon />,
   },
   {
     category: "Model Category",
     permalink: "category-list",
-    icon: "</>",
+    icon: <BallotOutlinedIcon />,
   },
   {
     category: "Side Bar Item 01",
     permalink: "category-list",
-    icon: "</>",
+    icon: <FormatListBulletedIcon />,
   },
   {
     category: "Side Bar Item 02",
