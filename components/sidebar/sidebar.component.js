@@ -134,7 +134,9 @@ function Sidebar(props) {
       </List>
       <Divider />
       <List>
-        <ListSubheader>Account</ListSubheader>
+        <ListSubheader sx={{
+          textAlign: "center"
+        }}>Account</ListSubheader>
         {["Settings", "Change Password"].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton>
