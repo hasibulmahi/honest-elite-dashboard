@@ -45,6 +45,6 @@ export const CategoryItem = [
   {
     category: "Side Bar Item 03",
     permalink: "category-list",
-    icon: "</>",
+    icon: <FormatListBulletedIcon />,
   },
 ];
