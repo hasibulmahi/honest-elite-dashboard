@@ -1,10 +1,9 @@
-import GridViewIcon from '@mui/icons-material/GridView';
-import ArticleOutlinedIcon from '@mui/icons-material/ArticleOutlined';
-import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
-import ViewListOutlinedIcon from '@mui/icons-material/ViewListOutlined';
-import BallotOutlinedIcon from '@mui/icons-material/BallotOutlined';
-import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
-import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
+import GridViewIcon from "@mui/icons-material/GridView";
+import ArticleOutlinedIcon from "@mui/icons-material/ArticleOutlined";
+import DescriptionOutlinedIcon from "@mui/icons-material/DescriptionOutlined";
+import ViewListOutlinedIcon from "@mui/icons-material/ViewListOutlined";
+import BallotOutlinedIcon from "@mui/icons-material/BallotOutlined";
+import FormatListBulletedIcon from "@mui/icons-material/FormatListBulleted";
 
 export const CategoryItem = [
   {
