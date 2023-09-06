@@ -20,6 +20,7 @@ import SettingsIcon from "@mui/icons-material/Settings";
 import LockIcon from "@mui/icons-material/Lock";
 import LogoutIcon from "@mui/icons-material/Logout";
 
+
 const drawerWidth = 240;
 
 function Sidebar(props) {
@@ -92,7 +93,7 @@ function Sidebar(props) {
                   }}
                 >
                   <ListItemIcon>
-                    <InboxIcon />
+                    {item.icon}
                   </ListItemIcon>
                   <ListItemText>
                     <Typography variant="h5" fontSize={12} fontWeight={500}>
