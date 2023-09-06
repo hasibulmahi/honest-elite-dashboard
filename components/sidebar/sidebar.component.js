@@ -135,6 +135,8 @@ function Sidebar(props) {
       <Divider />
       <List>
         <ListSubheader sx={{
+          marginLeft: 1,
+          color: "#ED028C",
           fontSize: "13px",
           fontWeight: "bold"
         }}>Account</ListSubheader>
