@@ -135,7 +135,8 @@ function Sidebar(props) {
       <Divider />
       <List>
         <ListSubheader sx={{
-          textAlign: "center"
+          fontSize: "13px",
+          fontWeight: "bold"
         }}>Account</ListSubheader>
         {["Settings", "Change Password"].map((text, index) => (
           <ListItem key={text} disablePadding>
