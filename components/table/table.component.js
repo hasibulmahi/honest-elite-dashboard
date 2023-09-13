@@ -121,7 +121,7 @@ function DataTables(props) {
         customBodyRender: (value, tableMeta) => {
           const rowIndex = tableMeta.rowIndex;
           return (
-            <Switch
+            <Switch 
               checked={stateData[rowIndex].state}
               onChange={() => handleSwitchChange(rowIndex)}
               color="warning"
@@ -151,14 +151,20 @@ function DataTables(props) {
                 color="primary"
                 onClick={() => handleEditClick(rowIndex)}
               >
-                <EditIcon />
+                <EditIcon
+                  sx={{
+                    fontSize: 20,
+                  }}
+                />
               </IconButton>
               <IconButton
                 aria-label="Delete"
                 color="secondary"
                 onClick={() => handleDeleteClick(rowIndex)}
               >
-                <DeleteIcon />
+                <DeleteIcon sx={{
+                  fontSize: 20,
+                }} />
               </IconButton>
             </>
           );
