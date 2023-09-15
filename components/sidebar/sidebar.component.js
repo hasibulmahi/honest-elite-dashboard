@@ -186,7 +186,7 @@ function Sidebar(props) {
             }}
             fontSize="small"
           />
-          Logout
+          Log out
         </Button>
       </Box>
     </Drawer>
